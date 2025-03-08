@@ -10,7 +10,7 @@ This is a simple REST service for managing task lists and tasks.
 ## Running the Application
 
 1. Clone the repository.
-2. Navigate to the project directory.
+2. Build the project using 'mvn clean install'
 3. Run `mvn spring-boot:run`.
 
 ## API Endpoints
@@ -29,7 +29,7 @@ The application uses an in-memory H2 database. You can access the H2 console at 
 
 ## SWAGGER
 
-The swagger available at : http://localhost:8080/swagger-ui/index.html
+The swagger available at : `http://localhost:8080/swagger-ui/index.html`
 
 ## Testing
 Run `mvn test` to execute the unit tests.
