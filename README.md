@@ -33,11 +33,11 @@ The database url is : `jdbc:h2:mem:taskboard`
 The swagger available at : `http://localhost:8080/swagger-ui/index.html`
 
 ## Docker 
-1- Build docker image with 'docker-compose build'
-2- Run docker with 'docker-compose up'
-3- Access the TaskBoard Application at : 'http://localhost:8080'
-4- Access the H2 database console at : 'http://localhost:8082'
-5- Access the swagger at : `http://localhost:8080/swagger-ui/index.html`
+1. Build docker image with `docker-compose build`
+2. Run docker with `docker-compose up`
+3. Access the TaskBoard Application at : `http://localhost:8080`
+4. Access the H2 database console at : `http://localhost:8082`
+5. Access the swagger at : `http://localhost:8080/swagger-ui/index.html`
 
 ## Testing
 Run `mvn test` to execute the unit tests.
