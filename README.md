@@ -10,7 +10,7 @@ This is a simple REST service for managing task lists and tasks.
 ## Running the Application
 
 1. Clone the repository.
-2. Build the project using 'mvn clean install'
+2. Build the project using `mvn clean install`
 3. Run `mvn spring-boot:run`.
 
 ## API Endpoints
