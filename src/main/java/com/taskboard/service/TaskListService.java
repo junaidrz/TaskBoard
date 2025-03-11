@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Slf4j
@@ -24,5 +25,9 @@ public class TaskListService {
 
     public void deleteList(Long id) {
         taskListRepository.deleteById(id);
+    }
+
+    public Optional<Object> getListById(Long id) {
+        return Optional.of(taskListRepository.findById(id));
     }
 }
