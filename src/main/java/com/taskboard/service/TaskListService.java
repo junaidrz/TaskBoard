@@ -27,7 +27,7 @@ public class TaskListService {
         taskListRepository.deleteById(id);
     }
 
-    public Optional<Object> getListById(Long id) {
-        return Optional.of(taskListRepository.findById(id));
+    public Optional<TaskList> getListById(Long id) {
+        return taskListRepository.findById(id);
     }
 }
