@@ -62,6 +62,6 @@ public class ListControllerIntegrationTest {
         log.info("Task Saved with Id : "+savedList.getId());
         mockMvc.perform(MockMvcRequestBuilders.delete("/lists/" + savedList.getId())
                 .contentType(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk());
+                .andExpect(status().isNoContent());
     }
 }
